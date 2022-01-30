@@ -5,12 +5,12 @@ spring:
     username: sa
     password: '{cipher}ef085aaf93c1fded1f87e956069917284215b7282708242ebcc399e19f338b96'
 
+order_service:
+  url: http://ORDER-SERVICE/order-service/%s/orders
+
 token:
   expiration_time: 850000
   secret: user_token
 
 gateway:
   ip: 192.168.35.131
-
-order_service:
-  url: http://ORDER-SERVICE/order-service/%s/orders
